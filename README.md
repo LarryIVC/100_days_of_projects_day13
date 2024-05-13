@@ -1,92 +1,152 @@
-# Frontend Mentor - 3-column preview card component
+<div align="center" style="text-align: center">
+<img src = "./images/logo.webp" height="64" width="auto">
+  <h1><b>PROY11: 3 Column Preview Card Component<b></h1>
+</div>
 
-![Design preview for the 3-column preview card component coding challenge](./design/desktop-preview.jpg)
+[PROY11: 3 Column Preview Card Component] construido con `HTML`, `CSS` y  `JavaScript` para mejorar nuestras habilidades de codificación. Este proyecto es el decimo primero de los desafios #100daysofprojects promovido por [Frontend Club](https://www.facebook.com/frontendclubfb).
 
-## Welcome! 👋
+![Screenshot](./images/screenshoot.webp)
 
-Thanks for checking out this front-end coding challenge.
+### Tabla de contenidos
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+- [Descripcion](#descripcion)
+  - [El desafio](#el-desafio)
+  - [Capturas](#capturas)
+  - [Enlaces](#enlaces)
+- [Flujo de trabajo](#flujo-de-trabajo)
+  - [Desarrollo](#desarrollo)
+  - [Recursos](#recursos)
+- [Agradecimientos](#agradecimientos)
+- [Contacto](#contacto)
+- [Licencia](#licencia)
 
-**To do this challenge, you need a basic understanding of HTML and CSS.**
+## Descripcion
 
-## The challenge
+### El desafio
 
-Your challenge is to build out this 3-column preview card component and get it looking as close to the design as possible.
+Crear una tarjeta vista previa de estadísticas, usando `HTML` y `CSS`; y lograr que se parezca lo más posible al diseño.
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+### Los usuarios deberían poder:
 
-Your users should be able to:
+1. Ver un diseño óptimo en pantallas `grandes(1200px)` y `pequeñas(375px)`.
+2. Ver un color de `fondo(hover)` transparente al pasar el mouse sobre los botones.
 
-- View the optimal layout depending on their device's screen size
-- See hover states for interactive elements
+### Importante:
 
-Want some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
+1. Agrega icono `favicon` al proyecto.
+2. Agrega una `URL` fácil de recordar (ej. `3-column-preview-card-component`).
+3. Agrega un `título` al proyecto (ej. `3 Column Preview Card Component - Frontend Club`).
+4. **Bonus**: Agrega un archivo `README.md` al proyecto.
 
-## Where to find everything
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design.
+### Capturas
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`.
+![Captura](./images/mockup.webp)
 
-If you would like the design files (we provide Sketch & Figma versions) to inspect the design in more detail, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
+### Enlaces
 
-You will find all the required assets in the `/images` folder. The assets are already optimized.
+- [Proyecto](https://3-column-preview-card-component-larry.netlify.app/)
+- [Repositorio](https://github.com/LarryIVC/100_days_of_projects_day13)
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
+## Flujo de trabajo
 
-## Building your project
+### Desarrollo
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+**Estructura del proyecto**
 
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+```txt
+/
+📂
+├── 📂css/
+│ └── styles.css
+├── 📂fonts/
+│ └── BigShouldersDisplay-VariableFont_wght.ttf
+│ └── LexendDeca-VariableFont_wght.ttf
+├── 📂images/
+│   └── favicon-32x32.png
+│   └── icon-luxury.svg
+│   └── icon-sedans.svg
+│   └── icon-suvs.svg
+│   └── logo.webp
+│   └── mockup.webp
+│   └── scrrenshoot.webp
+├── 📂js/
+│   └── index.js
+└── .gitignore
+└── index.html
+└── LICENSE
+└── README.md
+```
+**Tecnologías**
 
-## Deploying your project
+1. `HTML` Semántico
+2. Estilos `CSS`
+3. `Git` y `GitHub`
+4. `Netlify`
+5. `JavaScript`
 
-As mentioned above, there are many ways to host your project for free. Our recommended hosts are:
+**Flujo de desarrollo**
 
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
+1. Análisis del diseño
+2. Configuración inicial
+   - Vincular archivos y librerías
+   - Iniciar proyecto con Git
+3. Marcado HTML
+   - Estructura semántica
+   - Atributos accesibles
+   - Enlaces y rutas
+4. Estilos CSS
+   - De arriba hacia abajo
+   - Estilos reutilizables
+   - Estilos personalizados
+5. Flujo de trabajo `mobile-first`
 
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://medium.com/frontend-mentor/frontend-mentor-trusted-hosting-providers-bf000dfebe).
+**Fragmentos de codigo**
 
-## Create a custom `README.md`
+Etiquetas `meta` para el SEO.
 
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
+```html
+<meta name="author" content="Larry Villegas Costas" />
+<meta
+  name="title"
+  content="10-stats-preview-card-component - Larry Villegas Costas - Frontend Club"
+/>
+<meta
+  name="description"
+  content="10-stats-preview-card-component - Larry Villegas Costas - Frontend Club"
+/>
+<title>3 Column Preview Card Component - Frontend Club</title>
+```
 
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
+### Recursos
 
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
+Comparte los recursos que hayas utilizado para completar este proyecto.
 
-## Submitting your solution
+1. [Frontend Club](https://www.facebook.com/frontendclubfb) - Comunidad de desarrollo web
+2. [Netlify](https://www.netlify.com/) - Plataforma de alojamiento web
+3. [Multi Device Website Mockup Generator](https://techsini.com/multi-mockup/index.php) - Generador de maquetas
+4. [SVGOMG](https://jakearchibald.github.io/svgomg/) - Optimizador de SVG
+5. [Squoosh](https://squoosh.app/) - Optimizador de imágenes
+6. [Shots](https://shots.so/) - Capturas de pantalla
+7. [Google Fonts](https://fonts.google.com/) - Fuentes gratuitas
 
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) for tips on how to do this.
+## Agradecimientos
 
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
+- Mi familia que siempre me apoya en mis proyectos
+- Mi streeamer favorito que me inspira a seguir adelante [@midudev](https://www.twitch.tv/midudev)
 
-## Sharing your solution
+## Contacto
 
-There are multiple places you can share your solution:
+- [LinkedIn](https://www.linkedin.com/in/larryvillegascostas/)
+- [Facebook](https://www.facebook.com/profile.php?id=1201373751)
+- [GitHub](https://github.com/LarryIVC)
+- [Correo](mailto:larry_villegas@hotmail.com)
+- [Twitter](https://twitter.com/LarryVillegas)
+- [Portfolio](https://portfolio-larry.netlify.app/)
 
-1. Share your solution page in the **#finished-projects** channel of the [community](https://www.frontendmentor.io/community). 
-2. Tweet [@frontendmentor](https://twitter.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in the tweet. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on other social channels like LinkedIn.
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
+## Licencia
 
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback.
+Este proyecto está bajo la Licencia (MIT) - mira el archivo [LICENSE](LICENSE) para detalles
 
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
+*No dudes en contactarme si crees que te puedo ayudar en algún proyecto o tienes un trabajo para mi.*
 
-## Got feedback for us?
-
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
-
-This challenge is completely free. Please share it with anyone who will find it useful for practice.
-
-**Have fun building!** 🚀
